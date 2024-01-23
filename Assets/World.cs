@@ -44,7 +44,7 @@ public class World : MonoBehaviour
         float y = (float) world.GetLength(1);
         float z = (float) world.GetLength(2);
 
-        cameraFOV = (((-1f) * (Mathf.Sqrt(x))) + (0.6f * x) + (0.5f)); 
+        cameraFOV = (((-1f) * (Mathf.Sqrt(x))) + (0.5f * x) + (0.5f)); 
 
         float xCenter = x / 2f;
         float yCenter = y / 2f;
